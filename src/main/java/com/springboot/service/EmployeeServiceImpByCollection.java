@@ -12,10 +12,10 @@ public class EmployeeServiceImpByCollection implements EmployeeService{
 	private List<Employee> empList=new ArrayList<>();
 	
 	public EmployeeServiceImpByCollection() {
-	 empList.add(new Employee(101,"Raksha",50000));
-	 empList.add(new Employee(102,"Ruha",52000));
-	 empList.add(new Employee(103,"Rakshu",38000));
-	 empList.add(new Employee(104,"Priya",28000));
+	 empList.add(new Employee(101,"Ram",50000));
+	 empList.add(new Employee(102,"Aanand",52000));
+	 empList.add(new Employee(103,"Abhi",38000));
+	 empList.add(new Employee(104,"Surekha",28000));
 	 empList.add(new Employee(105,"Mohini",25000));
 	}
 
